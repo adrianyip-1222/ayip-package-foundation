@@ -82,13 +82,11 @@ namespace AYip.Foundations
                     }
                 }
 
-                lock (_ctsLock)
-                {
-                    if (RefCount > 0) return;
-                    ReleaseInstance();
-                    instance = default;
-                    Dispose();
-                }
+                // If there is ref count left, do nothing.
+                if (RefCount > 0) return;
+                
+                // If there is no ref count left, dispose this wrapper.
+                Dispose();
             }
             catch (OperationCanceledException) { }
             finally
@@ -100,10 +98,5 @@ namespace AYip.Foundations
                 }
             }
         }
-
-        /// <summary>
-        /// Handle your release method.
-        /// </summary>
-        protected abstract void ReleaseInstance();
     }
 }

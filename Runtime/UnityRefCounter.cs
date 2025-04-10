@@ -9,9 +9,10 @@ namespace AYip.Foundations
     {
         public UnityRefCounter(TUnityObject instance) : base(instance) { }
 
-        protected override void ReleaseInstance()
+        protected override void DisposeUnManagedResources()
         {
             Object.DestroyImmediate(instance);
+            instance = null;
         }
     }
 }
