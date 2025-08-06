@@ -1,4 +1,6 @@
 # Changelog
+## 0.2.3
+- Fixed *DisposableBase* not inherited from IDisposable
 ## 0.2.2
 - Added an extension function to Transform `GetScenePath()`.
 
