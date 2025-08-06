@@ -1,20 +1,23 @@
 {
-  "name": "com.adrianyip.foundation",
-  "version": "0.2.2",
-  "displayName": "AYip Foundation",
-  "description": "This is the foundation package for my other packages.",
-  "unity": "2019.1",
-  "documentationUrl": "https://github.com/adrianyip-1222/ayip-package-foundation",
-  "changelogUrl": "https://github.com/adrianyip-1222/ayip-package-foundation/blob/0.2.2/CHANGELOG.md",
-  "licensesUrl": "https://github.com/adrianyip-1222/ayip-package-foundation/blob/0.2.2/LICENSE",
-  "dependencies": {},
-  "keywords": [
-    "base",
-    "basic"
-  ],
-  "author": {
-    "name": "Yip Ka Ming",
-    "email": "adrianyip1222@gmail.com",
-    "url": "https://github.com/adrianyip-1222/"
-  }
+    "name": "com.adrianyip.foundation",
+    "version": "0.2.3",
+    "displayName": "AYip Foundation",
+    "description": "This is the foundation package for my other packages.",
+    "unity": "2019.1",
+    "documentationUrl": "https://github.com/adrianyip-1222/ayip-package-foundation",
+    "changelogUrl": "https://github.com/adrianyip-1222/ayip-package-foundation/blob/0.2.3/CHANGELOG.md",
+    "licensesUrl": "https://github.com/adrianyip-1222/ayip-package-foundation/blob/0.2.3/LICENSE",
+    "dependencies":
+    {},
+    "keywords":
+    [
+        "base",
+        "basic"
+    ],
+    "author":
+    {
+        "name": "Yip Ka Ming",
+        "email": "adrianyip1222@gmail.com",
+        "url": "https://github.com/adrianyip-1222/"
+    }
 }
