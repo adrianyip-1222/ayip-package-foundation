@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace AYip.Foundations
+namespace AYip.Foundation
 {
     /// <summary>
     /// Responsible for counting the reference for the object, then manually deal with the release method.

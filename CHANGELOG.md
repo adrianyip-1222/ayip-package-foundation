@@ -1,6 +1,11 @@
 # Changelog
+## 1.0.0
+- Added pairing database and prefab database
+- Rename namespace to AYip.Foundation (a breaking change)
+
 ## 0.2.3
 - Fixed *DisposableBase* not inherited from IDisposable
+
 ## 0.2.2
 - Added an extension function to Transform `GetScenePath()`.
 

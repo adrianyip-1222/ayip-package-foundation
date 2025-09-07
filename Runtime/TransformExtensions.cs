@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using UnityEngine;
 
-namespace AYip.Foundations
+namespace AYip.Foundation
 {
     public static class TransformExtensions
     {

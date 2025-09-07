@@ -1,6 +1,6 @@
 {
     "name": "AYip.Foundation",
-    "rootNamespace": "",
+    "rootNamespace": "AYip.Foundation",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
